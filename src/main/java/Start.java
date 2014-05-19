@@ -18,6 +18,6 @@ public class Start {
         container.instance().select(MyController.class).get();
 
         weld.shutdown();
-        System.out.println(" hello word");
+        System.out.println(" Shuttind down");
     }
 }
